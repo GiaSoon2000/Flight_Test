@@ -19,12 +19,28 @@ public class Seat {
         return this.isAvailable;
     }
 
+    // Getters and setters
     public String getSeatNumber() {
         return seatNumber;
+    }
+
+    public void setSeatNumber(String seatNumber) {
+        this.seatNumber = seatNumber;
     }
 
     public String getSeatClass() {
         return seatClass;
     }
 
+    public void setSeatClass(String seatClass) {
+        this.seatClass = seatClass;
+    }
+
+    public Flight getFlight() {
+        return flight;
+    }
+
+    public void setFlight(Flight flight) {
+        this.flight = flight;
+    }
 }

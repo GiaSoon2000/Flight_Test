@@ -34,4 +34,44 @@ public class Passenger {
         return result.toString();
     }
 
+    // Getters and setters
+    public String getPassengerID() {
+        return passengerID;
+    }
+
+    public void setPassengerID(String passengerID) {
+        this.passengerID = passengerID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassportNumber() {
+        return passportNumber;
+    }
+
+    public void setPassportNumber(String passportNumber) {
+        this.passportNumber = passportNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public ArrayList<Reservation> getReservations() {
+        return reservations;
+    }
+
+    public void setReservations(ArrayList<Reservation> reservations) {
+        this.reservations = reservations;
+    }
 }
